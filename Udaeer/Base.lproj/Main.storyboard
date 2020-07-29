@@ -39,6 +39,9 @@
                                 <color key="progressTintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="trackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </progressView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="eXs-Pg-cC4">
+                                <rect key="frame" x="160" y="348.5" width="94" height="32"/>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -51,7 +54,9 @@
                             <constraint firstItem="qYR-GX-4VO" firstAttribute="top" secondItem="kBW-ov-25a" secondAttribute="bottom" constant="30" id="Yla-yA-Gje"/>
                             <constraint firstItem="qYR-GX-4VO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="d90-ii-Faf"/>
                             <constraint firstItem="diU-2M-ntR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hBE-ti-1FK"/>
+                            <constraint firstItem="eXs-Pg-cC4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kj4-42-6SZ"/>
                             <constraint firstItem="diU-2M-ntR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sGP-rA-Y2Z"/>
+                            <constraint firstItem="eXs-Pg-cC4" firstAttribute="top" secondItem="L3N-dm-fef" secondAttribute="bottom" constant="30" id="sSf-93-pQ2"/>
                             <constraint firstItem="L3N-dm-fef" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="spb-ju-2hG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
