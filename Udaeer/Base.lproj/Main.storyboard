@@ -21,19 +21,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.down.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kBW-ov-25a">
-                                <rect key="frame" x="147" y="111.5" width="120" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="99a-Js-2DE"/>
-                                    <constraint firstAttribute="width" secondItem="kBW-ov-25a" secondAttribute="height" multiplier="1:1" id="9T7-cS-a5a"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="diU-2M-ntR" secondAttribute="trailing" constant="20" id="5Cs-pI-8AA"/>
-                            <constraint firstItem="kBW-ov-25a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="82j-de-66N"/>
-                            <constraint firstItem="kBW-ov-25a" firstAttribute="top" secondItem="diU-2M-ntR" secondAttribute="bottom" constant="20" id="GPA-hV-3fs"/>
                             <constraint firstItem="diU-2M-ntR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hBE-ti-1FK"/>
                             <constraint firstItem="diU-2M-ntR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sGP-rA-Y2Z"/>
                         </constraints>
@@ -45,7 +36,4 @@
             <point key="canvasLocation" x="139" y="110"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
-    </resources>
 </document>
