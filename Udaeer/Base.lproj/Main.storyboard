@@ -28,36 +28,14 @@
                                     <constraint firstAttribute="width" secondItem="kBW-ov-25a" secondAttribute="height" multiplier="1:1" id="9T7-cS-a5a"/>
                                 </constraints>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qYR-GX-4VO">
-                                <rect key="frame" x="18" y="261.5" width="378" height="31"/>
-                            </slider>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="L3N-dm-fef">
-                                <rect key="frame" x="40" y="311.5" width="334" height="7"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="7" id="Y2H-W3-TsU"/>
-                                </constraints>
-                                <color key="progressTintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="trackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </progressView>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="eXs-Pg-cC4">
-                                <rect key="frame" x="160" y="348.5" width="94" height="32"/>
-                            </stepper>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="diU-2M-ntR" secondAttribute="trailing" constant="20" id="5Cs-pI-8AA"/>
                             <constraint firstItem="kBW-ov-25a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="82j-de-66N"/>
-                            <constraint firstItem="L3N-dm-fef" firstAttribute="top" secondItem="qYR-GX-4VO" secondAttribute="bottom" constant="20" id="G2N-C7-ZgD"/>
                             <constraint firstItem="kBW-ov-25a" firstAttribute="top" secondItem="diU-2M-ntR" secondAttribute="bottom" constant="20" id="GPA-hV-3fs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qYR-GX-4VO" secondAttribute="trailing" constant="20" id="P61-DQ-DCm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="L3N-dm-fef" secondAttribute="trailing" constant="20" id="TAr-Yd-hss"/>
-                            <constraint firstItem="qYR-GX-4VO" firstAttribute="top" secondItem="kBW-ov-25a" secondAttribute="bottom" constant="30" id="Yla-yA-Gje"/>
-                            <constraint firstItem="qYR-GX-4VO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="d90-ii-Faf"/>
                             <constraint firstItem="diU-2M-ntR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hBE-ti-1FK"/>
-                            <constraint firstItem="eXs-Pg-cC4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kj4-42-6SZ"/>
                             <constraint firstItem="diU-2M-ntR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sGP-rA-Y2Z"/>
-                            <constraint firstItem="eXs-Pg-cC4" firstAttribute="top" secondItem="L3N-dm-fef" secondAttribute="bottom" constant="30" id="sSf-93-pQ2"/>
-                            <constraint firstItem="L3N-dm-fef" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="spb-ju-2hG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
